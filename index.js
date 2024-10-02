@@ -18,10 +18,8 @@ function generateJoke(event) {
   let prompt = "Tell me a funny joke in pidgin";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  
-  poemElement.classList.remove("hidden");
-  poemElement.innerHTML= `<div class = "generating">⌛generating a joke...</div>`;
-  
+  let jokeElement = document.querySelector(".generating");
+  jokeElement.innerHTML = "generating...";
 
   console.log("called the AI api");
   axios.get(apiUrl).then(displayJoke);
