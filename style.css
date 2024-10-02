@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     padding: 0 20px;
-    background-color: blanchedalmond;
+    background-color: black;
   }
   
   h1 {
@@ -10,13 +10,9 @@ body {
     margin: 0;
     font-size: 34px;
     line-height: 48px;
+    text-align: justify;
   }
-  
-  h1 h2,
-  h3 {
-    color: #231d3c;
-  }
-  button {
+    button {
     padding: 40px;
     background: black;
     color: aliceblue;
@@ -30,20 +26,25 @@ body {
     border: 1px solid black;
   }
   .container {
-      max-width: 600px;
-      margin: 60px auto;
-      background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/145/905/original/musician-4207759.png?1727820668");
-      padding: 30px;
+      max-width: 400px;
+      margin: 120px auto;
+            padding: 30px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       border-radius: 10px;
       display: flex;
-      justify-content: center;
+      background-color: aliceblue;
+      
+      
     }
     
   .logo {
     display: block;
     margin: 30px auto;
     width: 150px;
+  }
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
   }
   
     
